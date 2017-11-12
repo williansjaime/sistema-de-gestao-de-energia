@@ -15,7 +15,7 @@ namespace SistemaGerenciamentoEnergia.Controller
         public void AddUsuario(Modelo_Cadastro usuario)
         {
             _db.Add(usuario);
-                            
+                           
         }
         
         ///Verificar senha e usuario cadastrado
