@@ -1,12 +1,8 @@
-﻿using SistemaGerenciamentoEnergia.Vews;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SistemaGerenciamentoEnergia
+namespace AGaugeApp
 {
     static class Program
     {
@@ -19,6 +15,6 @@ namespace SistemaGerenciamentoEnergia
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
-         }
+        }
     }
 }
