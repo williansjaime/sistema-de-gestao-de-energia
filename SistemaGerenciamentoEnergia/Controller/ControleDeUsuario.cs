@@ -18,6 +18,7 @@ namespace SistemaGerenciamentoEnergia.Controller
                            
         }
         
+                
         ///Verificar senha e usuario cadastrado
         public  bool Verificar_Usuario( string usuario, double  senha)
         {
